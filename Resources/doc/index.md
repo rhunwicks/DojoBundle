@@ -18,12 +18,13 @@ Installation
 ------------
 
 Download DojoBundle to the ``vendor`` directory. You can use the Symfony's vendor
-script for the automated procces. Add the following in your ``deps`` file::
+script for the automated procces. Add the following in your ``deps`` file:
 
 ```
   [DojoBundle]
       git=http://github.com/maastermedia/DojoBundle.git
       target=/bundles/Dojo/DojoBundle
+```
 
 and run the vendors script to download bundle::
 
@@ -38,7 +39,7 @@ If you prefer instead to use git submodules, then run the following:
   git submodule update --init
 ```
 
-Next, be sure to enable Dojo bundle in your autoload.php and AppKernel.php files::
+Next, be sure to enable Dojo bundle in your autoload.php and AppKernel.php files:
 
 ``` php
     <?php
