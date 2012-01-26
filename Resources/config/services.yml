@@ -1,7 +1,7 @@
 parameters:
-#    maastermedia_dojo.example.class: Maastermedia\DojoBundle\Example
+#    dojo.example.class: Dojo\DojoBundle\Example
 
 services:
-#    maastermedia_dojo.example:
+#    dojo.example:
 #        class: %maastermedia_dojo.example.class%
 #        arguments: [@service_id, "plain_value", %parameter%]

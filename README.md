@@ -1,6 +1,6 @@
-MaastermediaDojoBundle
-======================
-
-coming soon ...
+DojoBundle
+==========
 
 Symfony bundle for Dojo Toolkit Javascript library (toolkit).
+
+coming soon ...
