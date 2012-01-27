@@ -1,7 +1,6 @@
-parameters:
-#    dojo.example.class: Dojo\DojoBundle\Example
-
 services:
-#    dojo.example:
-#        class: %maastermedia_dojo.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]
+    twig.extension.dojo:
+        class: Dojo\DojoBundle\Twig\Extension\DojoExtension
+        arguments: [@service_container]
+        tags:
+            - { name: twig.extension, alias: dojo }

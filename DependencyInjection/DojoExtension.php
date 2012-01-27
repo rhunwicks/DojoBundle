@@ -21,6 +21,8 @@ class DojoExtension extends Extension
     {
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
+        $container->setParameter("dojo_config", $config["dojo_config"]);
+        $container->setParameter("dojo_theme", $config["theme"]);
 
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');

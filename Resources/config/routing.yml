@@ -1,3 +1,0 @@
-DojoBundle_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: DojoBundle:Default:index }
