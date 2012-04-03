@@ -11,6 +11,9 @@
             "email": "peter.kokot@m-m.si"
         }
     ],
+    "autoload": {
+        "psr-0": { "Dojo\\DojoBundle": "" }
+    },
     "require": {
         "symfony/framework-bundle": "2.1.*"
     },
